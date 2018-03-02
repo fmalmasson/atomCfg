@@ -1,0 +1,30 @@
+"*":
+  core:
+    disabledPackages: [
+      "indent-guide-improved"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "bd7d610d-e237-4ced-9f7b-afc4ff5d3025"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    scrollSyncType: "Vertical + Horizontal"
+  "tree-view-git-status": {}
+  welcome:
+    showOnStartup: false
+".html.php.text":
+  editor:
+    tabLength: 4
