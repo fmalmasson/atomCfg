@@ -1,21 +1,22 @@
 "*":
   core:
     disabledPackages: [
-      "indent-guide-improved"
+      "antialiased"
+      "one-vibrancy"
     ]
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
+      "one-dark-ui"
       "atom-material-syntax"
     ]
+    titleBar: "custom"
   editor:
     fontFamily: "Fira Code"
-    fontSize: 15
     invisibles: {}
-    showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "bd7d610d-e237-4ced-9f7b-afc4ff5d3025"
+  "one-vibrancy": {}
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
@@ -28,3 +29,4 @@
 ".html.php.text":
   editor:
     tabLength: 4
+
